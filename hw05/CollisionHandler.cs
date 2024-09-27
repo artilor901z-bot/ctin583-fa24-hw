@@ -18,9 +18,16 @@ using UnityEngine.SearchService;
     Examples include: FireParticles, GoldRibbons, Snowflakes, RainParticles, etc. 
 
     Problem 5: TODO: 
-        * When would you use a tuple over a struct?
+        * When would you use a tuple over a struct?  (tuple vs struct)
+        //Answer: Compared to a struct, a tuple is more lightweight and is used to store a collection of values.
+        //When we need to return multiple values from a method, we can use a tuple.
+
         * How do we acces items in a tuple?
+        //Answer: We can access items in a tuple by using the Item1, Item2, Item3, like what I did in CollectibleItems.cs
+
         * Try visualizing your enum in the Unity Editor. How does it appear as?
+        //Answer: The enum appears as a dropdown list in the Unity Editor.
+        //It shows in a dropdown list. Which is good to help me to see the options of the object.
         
 ******************************************************************************************************
 */
